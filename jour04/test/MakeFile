@@ -1,0 +1,6 @@
+NAME = manhattan
+FLAG = -Wall -Wextra -Werror
+SRC = manhattan.c main-manhattan.c
+
+all:
+	gcc -o $(FLAGS) $(NAME) $(SRC)
